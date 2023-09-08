@@ -1,4 +1,4 @@
-package com.cameronpalmer.horse.ui.theme
+package no.kristiania.echohorse.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

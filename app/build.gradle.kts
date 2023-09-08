@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.cameronpalmer.horse"
+    namespace = "no.kristiania.echohorse"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.cameronpalmer.horse"
+        applicationId = "no.kristiania.echohorse"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -53,6 +53,12 @@ android {
 }
 
 dependencies {
+    // define a BOM and its version
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
+
+    // define any required OkHttp artifacts without version
+    implementation("com.squareup.okhttp3:okhttp")
+    implementation("com.squareup.okhttp3:logging-interceptor")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")

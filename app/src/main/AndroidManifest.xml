@@ -10,13 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Horse"
+        android:theme="@style/Theme.EchoHorse"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="no.kristiania.echohorse.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Horse">
+            android:theme="@style/Theme.EchoHorse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,4 +25,5 @@
         </activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
