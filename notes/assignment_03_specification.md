@@ -24,3 +24,8 @@ I have provided an SVG (Scalable Vector Graphic) that you can use as an app icon
 
 ![The application design](resources/assignment_03_design.png)
 
+### Submission
+
+Clean your project and Zip it and upload to Canvas. Alternatively, upload it to Github and send the link to the Canvas assignment. Also use the Screenshot app or similar to take a movie of your app in action. This is either uploaded to Canvas or added to the
+ git repository.
+
